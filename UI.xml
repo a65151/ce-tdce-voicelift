@@ -1,0 +1,74 @@
+<Extensions>
+  <Version>1.11</Version>
+  <Panel>
+    <Order>1</Order>
+    <PanelId>coicelift_panel</PanelId>
+    <Origin>local</Origin>
+    <Location>HomeScreen</Location>
+    <Icon>Microphone</Icon>
+    <Color>#6F739E</Color>
+    <Name>Sammenlægning lokaler</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Sammenlægning af lokaler</Name>
+      <Row>
+        <Name>Lydforstærkning mellem lokaler</Name>
+        <Widget>
+          <WidgetId>voicelift_mode</WidgetId>
+          <Type>ToggleButton</Type>
+          <Options>size=1</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>voicelift_decrease</WidgetId>
+          <Type>Button</Type>
+          <Options>size=1;icon=audio_minus</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>voicelift_increase</WidgetId>
+          <Type>Button</Type>
+          <Options>size=1;icon=audio_plus</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name/>
+        <Widget>
+          <WidgetId>widget_108</WidgetId>
+          <Name>Fra/Til</Name>
+          <Type>Text</Type>
+          <Options>size=1;fontSize=normal;align=center</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>widget_107</WidgetId>
+          <Name>Volume ned</Name>
+          <Type>Text</Type>
+          <Options>size=1;fontSize=normal;align=center</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>widget_106</WidgetId>
+          <Name>Volume op</Name>
+          <Type>Text</Type>
+          <Options>size=1;fontSize=normal;align=center</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name/>
+        <Widget>
+          <WidgetId>widget_105</WidgetId>
+          <Name/>
+          <Type>Text</Type>
+          <Options>size=4;fontSize=normal;align=center</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Præsentation i lille lokale</Name>
+        <Widget>
+          <WidgetId>widget_104</WidgetId>
+          <Name>Vælg HDMI 2 på fjernbetjening til skærm i lille lokale</Name>
+          <Type>Text</Type>
+          <Options>size=4;fontSize=normal;align=center</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+</Extensions>
